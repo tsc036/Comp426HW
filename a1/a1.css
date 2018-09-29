@@ -1,0 +1,92 @@
+.container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  text-align: center;
+}
+#main_page_container{
+  background-image: url(beast.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#zeus_container{
+  background-image: url(lightning.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#odin_container{
+  background-color: #ff0000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#tezcatlipoca_container{
+  background-image: url(aztecpattern.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+h1{
+  color: #00FFFF;
+  font-family: cursive;
+}
+h2{
+  font-family: fantasy;
+}
+.god{
+  height:200px;
+  width:300px;
+  display: inline-block;
+  margin: 50px
+}
+img{
+  max-height: 100%;
+  max-width: 100%;
+  border-width: 10px;
+  border-color: #FCFF33;
+  border-style: groove;
+}
+#zeus>a{
+  color:#DAA520;
+}
+#odin>a{
+   color:#FF0000;
+}
+#tezcatlipoca>a{
+  color: #228B22;
+}
+h2:hover{
+  background-color:#000000;
+}
+a{
+  text-decoration-line: none;
+}
+h3{
+  color: white;
+}
+ul{
+  color: white;
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+  font-family: monospace;
+  background-color: black;
+}
+#odin_container>a{
+  color:white ;
+}
+#zeus_container>a{
+  color: white;
+}
+#tezcatlipoca_container>a{
+  color: white
+}
+#tezcatlipoca_container>h1{
+  color: #228B22;
+}
